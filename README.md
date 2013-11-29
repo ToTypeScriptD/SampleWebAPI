@@ -9,12 +9,12 @@ This is a vanilla `File -> New Project -> MVC Internet Website` project with a g
 
 ### Get the type definitions out of your MVC project
 
-    ToTypeScriptD SampleWebAPI\bin\SampleWebAPI.dll
+    ToTypeScriptD dotnet SampleWebAPI\bin\SampleWebAPI.dll
 
 ### Save the output to a file
 
-    ToTypeScriptD SampleWebAPI\bin\SampleWebAPI.dll > SampleWebAPITypeDefinitions.d.ts
+    ToTypeScriptD dotnet SampleWebAPI\bin\SampleWebAPI.dll > SampleWebAPITypeDefinitions.d.ts
 
 ### Only get types in a specific namespace
 
-    ToTypeScriptD SampleWebAPI\bin\SampleWebAPI.dll --regexFilter "SampleWebAPI.Controllers"
+    ToTypeScriptD dotnet SampleWebAPI\bin\SampleWebAPI.dll --regexFilter "SampleWebAPI.Controllers"
